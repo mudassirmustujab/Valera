@@ -99,8 +99,20 @@
     font-size: 15px;
 }
 
+.font16px{
+    font-size: 16px;
+}
+
 .font18px{
     font-size: 18px;
+}
+
+.font20px{
+    font-size: 20px;
+}
+
+.font22px{
+    font-size: 22px;
 }
 
 .font24px{
@@ -215,6 +227,7 @@
 
     padding: 90%;
     filter: grayscale(100%);
+    
 }
 
 .sec6 img:hover {
@@ -252,6 +265,10 @@
     height: auto;
     width: auto;
     margin: auto auto;
+}
+
+.sec8 .carousel-item h4{
+    height: 1.8rem;
 }
 
 /* Section Cards starts here */
@@ -304,17 +321,23 @@
 
 /* Section 9 Starts here */
 .sec11{
-    background-color: #F0F4F8;
+    background-color: #FAFAFA;
 }
 
 footer{
     height: 100vh;
     background: url("img/footer-bg.jpg") no-repeat;
     background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #3f4349df;
 }
 
 @media screen and (max-width: 566px) {
 
+    nav ul{
+        border-radius: 7px;
+        background-color:#6d2335ea;
+    }
 
     .sec1 h1{
         font-size: 2.5rem!important;
